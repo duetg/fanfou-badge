@@ -36,7 +36,7 @@ _*因右上角问号可直接打开用户空间，所以移去链接字样完全
 </div> 
       }}} 
  
-因Google Code Wiki系统无法嵌入Flash文件，所以此处不再给出实例。如果想查看实例，欢迎访问我的Blog：[http://www.duetg.com Duet G. Blog|自说自话]。 
+因Google Code Wiki系统无法嵌入Flash文件，所以此处不再给出实例。如果想查看实例，欢迎访问我的Blog：[http://www.duetg.com/project/fanfou-badge/ Duet G. Blog|自说自话]。 
 
  
 ==代码说明== 
