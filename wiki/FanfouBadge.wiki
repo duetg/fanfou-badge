@@ -23,7 +23,7 @@ _*因右上角问号可直接打开用户空间，所以移去链接字样完全
 
       {{{
 <div style="width:176px;text-align:center">
-  <embed src="http://fanfou-badge.googlecode.com/files/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"><br>
+  <embed src="https://dl.dropbox.com/u/423052/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"><br>
   <a style="font-size: 10px; color: #[HEX颜色代码]; text-decoration: none" href="http://fanfou.com/[你的饭否用户ID]" target="_blank">在 http://fanfou.com 上关注 [你的饭否用户名]</a>
 </div>
       }}}
@@ -32,7 +32,7 @@ _*因右上角问号可直接打开用户空间，所以移去链接字样完全
  
       {{{ 
 <div style="width:176px;text-align:center">
-  <embed src="http://fanfou-badge.googlecode.com/files/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+  <embed src="https://dl.dropbox.com/u/423052/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
 </div> 
       }}} 
  
@@ -43,7 +43,7 @@ _*因右上角问号可直接打开用户空间，所以移去链接字样完全
  
    # HEX颜色代码即十六进制颜色代码。它是由三组十六进制数组成的表示颜色的代码。需要注意的是：颜色代码前的“0x”以及“#”都是表示HEX颜色代码的前缀，修改代码时切不可将其删除。
    # 饭否用户ID在个人网址中，例如：`http://fanfou.com/`*fanfou* 粗体的部分即为用户 ID。
-   # 代码中所有方括号应与所括内容一同替换为对应内容。举例：“id=[你的饭否用户ID]”应替换为“id=fanfou”。
+   # 代码中所有方括号应与所括内容<font color="red">一同替换</font>为对应内容。举例：“id=<font color="red">[你的饭否用户ID]</font>”应替换为“id=<font color="red">fanfou</font>”。
    # 饭否用户名指的是你在饭否里填的姓名。举例：用户ID为“fanfou”，而用户名为“饭否”。
    # 关于调整大小，你可以直接修改代码中的width（宽）和height（高）等号后面的数字，注意不要删掉数字两边的双引号。注意在代码开头的<div>标签中还有一个width，两个width应该一致。个人认为正方形的比较好看。*注意：调小后，显示的文字也会变小，有可能会难以辨认。* 
    # 如果你想要使用自己的服务器托管饭否徽章的swf文件，请[http://fanfou-badge.googlecode.com/files/fanfou_badge.swf 点击下载]。
