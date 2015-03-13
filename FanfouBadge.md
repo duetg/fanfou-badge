@@ -1,0 +1,49 @@
+# 饭否徽章 #
+
+
+## 概述 ##
+
+这是一个[Twitter](http://twitter.com)风格的[饭否](http://fanfou.com)徽章。
+主要适用于以下两种饭否用户：
+
+  * 从Twitter上迁移至饭否的用户，习惯了Twitter徽章的简约风格。
+  * 希望获得不同颜色，改变徽章大小，想要尝试一下其他风格Flash插件的饭否用户。
+
+饭否徽章基本遵循了Twitter徽章全貌，并且加以汉化。有所不同的是：点击Twitter徽章右上角的问号将在原窗口进入Twitter首页；而饭否徽章则改进为在新窗口中打开饭否上该用户的空间（如：http://fanfou.com/fanfou ）。
+
+
+## 使用方法 ##
+
+基于不同需要，提供两组代码共使用：一组是完全按照Twitter代码编写，在徽章的下方附加该用户空间链接字样的标准代码；一组是移去链接字样的简约代码（我更喜欢这个）。
+
+_**因右上角问号可直接打开用户空间，所以移去链接字样完全不会影响使用。另，两组代码使用的徽章文件相同，即带有链接字样的徽章也可通过点击问号进入用户空间。**_
+
+  * 首先给出的是标准代码：
+
+```
+<div style="width:176px;text-align:center">
+  <embed src="https://dl.dropbox.com/u/423052/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"><br>
+  <a style="font-size: 10px; color: #[HEX颜色代码]; text-decoration: none" href="http://fanfou.com/[你的饭否用户ID]" target="_blank">在 http://fanfou.com 上关注 [你的饭否用户名]</a>
+</div>
+```
+
+  * 接下来给出的是简约代码 （其实就是少了最下面那行字）：
+
+```
+<div style="width:176px;text-align:center">
+  <embed src="https://dl.dropbox.com/u/423052/fanfou_badge.swf" flashvars="color1=0x[HEX颜色代码]&type=user&id=[你的饭否用户ID]" quality="high" width="176" height="176" name="fanfou_badge" align="middle" allowScriptAccess="always" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</div> 
+```
+
+因Google Code Wiki系统无法嵌入Flash文件，所以此处不再给出实例。如果想查看实例，欢迎访问我的Blog：[Duet G. Blog|自说自话](http://www.duetg.com/project/fanfou-badge/)。
+
+
+## 代码说明 ##
+
+  1. HEX颜色代码即十六进制颜色代码。它是由三组十六进制数组成的表示颜色的代码。需要注意的是：颜色代码前的“0x”以及“#”都是表示HEX颜色代码的前缀，修改代码时切不可将其删除。
+  1. 饭否用户ID在个人网址中，例如：`http://fanfou.com/`**fanfou** 粗体的部分即为用户 ID。
+  1. 代码中所有方括号应与所括内容<font color='red'>一同替换</font>为对应内容。举例：“id=<font color='red'>[你的饭否用户ID]</font>”应替换为“id=<font color='red'>fanfou</font>”。
+  1. 饭否用户名指的是你在饭否里填的姓名。举例：用户ID为“fanfou”，而用户名为“饭否”。
+  1. 关于调整大小，你可以直接修改代码中的width（宽）和height（高）等号后面的数字，注意不要删掉数字两边的双引号。注意在代码开头的<div>标签中还有一个width，两个width应该一致。个人认为正方形的比较好看。<b>注意：调小后，显示的文字也会变小，有可能会难以辨认。</b>
+<ol><li>如果你想要使用自己的服务器托管饭否徽章的swf文件，请<a href='http://fanfou-badge.googlecode.com/files/fanfou_badge.swf'>点击下载</a>。<br>
+</li><li>有问题请于下方留言。
